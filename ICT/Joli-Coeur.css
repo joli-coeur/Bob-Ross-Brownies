@@ -1,6 +1,8 @@
 body {
   font-family: "Lato", sans-serif;
   background-color:lightgray;
+  background-image: url("BG.jpg");
+  color:white;
 }
 
 .sidenav {
@@ -45,4 +47,11 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+a:hover{
+  color: aqua;
+}
+div {
+  display: right;
 }
