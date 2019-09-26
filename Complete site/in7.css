@@ -1,0 +1,73 @@
+<!-- De algemene margin en padding opdracht die werkt niet voor mij, ik pas deze alleen toe in de body zodat het menu in de head onaangetast blijft. -->
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+ol, ul { display:table; margin:0 auto;}
+
+  body {
+  background-image: url(background.jpg);
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 24;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1, h2 {
+  font-family: Mission Script;
+  background-color: gray;
+  font-variant: small-caps;
+  border: 3px inset #cfcfcf;
+  border-radius: 30px 0px 30px 0px
+}
+
+table {
+  border: 4px dotted #cfcfcf
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

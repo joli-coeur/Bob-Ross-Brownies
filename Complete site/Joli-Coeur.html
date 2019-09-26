@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Joli-Coeur.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a><br>
+  <a href="in7.html">Floris</a><br>
+  <a href="Jasmijn.html">Jasmijn</a><br>
+  <a href="Emiel.html">Emiel</a><br>
+  <a href="meme.html">Meme pagina</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <a>Menu</a></span>
+  <h2>JoLi-CoEuR</h2>
+  <p>Hallo, mijn naam is Joli-Coeur en welkom op mijn pagina !!!!</p><br>
+  <p>Ik heb in de coderclass gezeten en weet al best veel van programmeren</p><br>
+  <p> Ik heb al best veel geprogrameerd en ik ben nu op zoek naar uitdaging.</p><br>
+  <p> Deze pagina is eigenlijk meer voor de lol en ook een beetje om te laten zien aan mijn boy Chris waar ik van maakt ben en wat ik allemaal kan doen/programmeren</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+</body>
+</html>
